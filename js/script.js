@@ -2,10 +2,10 @@
 //  Scrivere solo la parte con jQuery senza modiﬁcare HTML e CSS.
 
 
-$('.fa-bars').click(function() {
+$('.header-right > a').click(function() {
   $('.hamburger-menu').css('display', 'block');
 });
 
-$('.fa-times').click(function() {
+$('.hamburger-menu > a').click(function() {
   $('.hamburger-menu').css('display', 'none');
 });
